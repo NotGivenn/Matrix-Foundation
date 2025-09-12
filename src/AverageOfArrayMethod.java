@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SumVsMiddleArrayMethod {
+public class AverageOfArrayMethod {
 
     static int sumArray(int[] array) {
         int sum = 0;
@@ -11,10 +11,10 @@ public class SumVsMiddleArrayMethod {
         return sum;
     }
 
-
     static double averageArray(int[] array) {
         if (array.length == 0) return 0;
-        int sum = sumArray(array);         double averagee = (double) sum / array.length;
+        int sum = sumArray(array);
+        double averagee = (double) sum / array.length;
         return averagee;
     }
 
@@ -32,13 +32,9 @@ public class SumVsMiddleArrayMethod {
 
         System.out.println(Arrays.toString(array));
 
-        int sum = sumArray(array);
-        System.out.println("Sum of array: " + sum);
-
         double average = averageArray(array);
         System.out.println("Average of array: " + average);
 
 
     }
-
 }
