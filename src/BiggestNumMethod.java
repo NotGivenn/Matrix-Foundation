@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BiggestNumMethod {
 
-    static long longestNumber(long number){
+    static long biggestNumber(long number){
         int maxDigit = 0;
 
         while (number != 0){
@@ -22,7 +22,7 @@ public class BiggestNumMethod {
         System.out.println("Enter number: ");
         long number = sc.nextLong();
 
-        long largestDigit = longestNumber(number);
+        long largestDigit = biggestNumber(number);
         System.out.println("The largest number is " + largestDigit);
 
 
