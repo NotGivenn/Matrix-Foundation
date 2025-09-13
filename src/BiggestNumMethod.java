@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LongestNumMethod {
+public class BiggestNumMethod {
 
     static long longestNumber(long number){
         int maxDigit = 0;
