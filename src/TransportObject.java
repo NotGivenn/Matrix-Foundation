@@ -1,4 +1,4 @@
-public class Object {
+public class TransportObject {
 
     public static void main(String[] args){
 
